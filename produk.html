@@ -1,23 +1,83 @@
-<!doctype html>
-<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Produk | RR Cafe</title><link rel="stylesheet" href="style.css"></head>
-<body><div class="topbar">Pilihan Menu RR Cafe</div><header class="header"><nav class="container nav" aria-label="Navigasi utama">
-<a class="brand" href="index.html">RR CAFE<small>ROOST &amp; ROAST</small></a>
-<button class="hamburger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navlinks">☰</button>
-<ul class="navlinks" id="navlinks"><li><a  href="index.html">Beranda</a></li>
-<li><a  href="about.html">Tentang Kami</a></li>
-<li><a href="produk.html" class="active submenu-toggle">Produk ▾</a>
-<ul class="dropdown"><li><a href="produk.html#makanan">Produk Makanan</a></li><li><a href="produk.html#minuman">Produk Minuman</a></li></ul></li>
-<li><a  href="kontak.html">Kontak</a></li></ul></nav></header><main><div class="pagehero"><div class="container"><h1>Produk &amp; Layanan</h1><p>Pilihan menu untuk berbagai selera dan suasana.</p></div></div>
-<section id="makanan"><div class="container"><span class="pill">Submenu 01</span><h2>Produk Makanan</h2><div class="grid">
-<article class="card"><h3>Salted Egg Chicken</h3><p>Hidangan ayam dengan saus salted egg bercita rasa gurih dan kaya rasa. Cocok dinikmati saat makan siang maupun malam bersama teman.</p><div class="price">Rp42.000</div></article>
-<article class="card"><h3>Bistik Chicken</h3><p>Olahan ayam dengan saus bistik yang menghadirkan cita rasa khas. Menu ini menjadi pilihan bagi pengunjung yang menginginkan makanan utama yang mengenyangkan.</p><div class="price">Rp38.000</div></article>
-<article class="card"><h3>Dimsum Ayam Keju Lumer</h3><p>Dimsum ayam dengan tambahan keju yang lembut. Disajikan sebagai camilan yang pas untuk menemani obrolan santai.</p><div class="price">Rp25.000</div></article>
-</div></div></section>
-<section id="minuman" class="band"><div class="container"><span class="pill">Submenu 02</span><h2>Produk Minuman</h2><div class="grid">
-<article class="card"><h3>Americano Cold</h3><p>Minuman kopi berbasis espresso yang disajikan dingin dengan karakter rasa tegas. Cocok untuk pencinta kopi yang menyukai sajian sederhana dan menyegarkan.</p><div class="price">Rp17.000</div></article>
-<article class="card"><h3>Tiger Bomb</h3><p>Salah satu pilihan minuman signature RR Cafe dengan karakter sajian yang unik. Minuman ini dapat menjadi teman bersantai ketika berkumpul bersama sahabat.</p><div class="price">Rp29.000</div></article>
-<article class="card"><h3>Tea Cold</h3><p>Teh dingin dengan rasa ringan yang mudah dinikmati. Cocok dipadukan dengan berbagai pilihan makanan dan camilan di RR Cafe.</p><div class="price">Rp10.000</div></article>
-</div><p><small>Harga merupakan contoh dari daftar menu usaha dan dapat berubah sesuai pembaruan operasional.</small></p></div></section></main>
-<footer><div class="container">© 2026 RR Cafe — Roost &amp; Roast • Website Company Profile UMKM</div></footer>
-<script src="main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pilihan menu makanan dan minuman RR Cafe Roost & Roast Medan.">
+  <title>Produk | RR Cafe — Roost & Roast</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .menu-intro{max-width:850px}.menu-group{margin:38px 0 52px;scroll-margin-top:110px}.menu-group h2{margin-bottom:10px}.menu-subtitle{margin-bottom:22px;opacity:.85}.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.menu-card{background:#fffdf8;border:1px solid #e5e1d6;border-radius:16px;padding:22px;box-shadow:0 8px 24px rgba(22,47,34,.06);color:#243e31}.menu-card h3{margin:0 0 8px;font-size:1.16rem;color:#244232}.menu-card p{margin:0 0 12px;line-height:1.55;color:#566258}.menu-price{font-weight:800;color:#1f4934}.menu-tag{display:inline-block;padding:5px 10px;background:#e7eee2;color:#345541;border-radius:20px;font-size:.78rem;margin-bottom:12px}.menu-note{font-size:.92rem;color:#5a645c}.menu-jump{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.menu-jump a{display:inline-block;background:#e5ece0;color:#244232;padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:600}.menu-jump a:hover{background:#d3dfcc}.menu-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.menu-actions a{display:inline-block;padding:12px 20px;border-radius:10px;background:#244232;color:white;text-decoration:none;font-weight:700}.menu-actions a.secondary{background:#e7eee2;color:#244232}@media(max-width:600px){.menu-grid{grid-template-columns:1fr}.menu-card{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Roost &amp; Roast • Medan • Weekdays 14.30–23.00 • Weekend 14.30–24.00</div>
+  <header class="header">
+    <nav class="container nav" aria-label="Navigasi utama">
+      <a class="brand" href="index.html">RR CAFE<small>ROOST &amp; ROAST</small></a>
+      <button class="hamburger" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <ul class="navlinks">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a class="active submenu-toggle" href="produk.html">Produk ▾</a>
+          <ul class="dropdown">
+            <li><a href="produk.html#makanan">Produk Makanan</a></li>
+            <li><a href="produk.html#minuman">Produk Minuman</a></li>
+          </ul>
+        </li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero"><div class="container"><div class="eyebrow">OUR MENU • ROOST &amp; ROAST</div><h1>Produk RR Cafe</h1><p class="menu-intro">Dari kopi pilihan dan minuman signature hingga makanan hangat dan camilan untuk menemani momen bersama.</p><a class="btn" href="#makanan">Jelajahi Menu Kami</a></div></div>
+    <section><div class="container">
+      <span class="pill">Menu Pilihan</span><h2>Temukan Favoritmu</h2>
+      <p class="lead">Jelajahi pilihan makanan dan minuman RR Cafe. Ketersediaan serta harga terbaru dapat dikonfirmasi melalui admin.</p>
+      <div class="menu-jump"><a href="#makanan">Makanan</a><a href="#minuman">Coffee</a><a href="#signature">Signature Coffee</a><a href="#mocktail">Mocktail</a><a href="#camilan">Camilan</a></div>
+      <div class="menu-group" id="makanan"><h2>🍛 Produk Makanan</h2><p class="menu-subtitle">Pilihan hidangan untuk makan siang, malam, dan nongkrong bersama.</p><div class="menu-grid">
+        <article class="menu-card"><span class="menu-tag">Nasi Goreng</span><h3>Nasi Goreng Kampung</h3><p>Nasi goreng dengan cita rasa rumahan.</p><span class="menu-price">Tersedia di RR Cafe</span></article>
+        <article class="menu-card"><span class="menu-tag">Nasi Goreng</span><h3>Nasi Goreng Cabe Ijo</h3><p>Menu nasi goreng dengan karakter rasa cabai hijau.</p><span class="menu-price">Tersedia di RR Cafe</span></article>
+        <article class="menu-card"><span class="menu-tag">Aneka Ayam</span><h3>Nasi Ayam Penyet</h3><p>Hidangan nasi dan ayam penyet.</p><span class="menu-price">Tersedia di RR Cafe</span></article>
+        <article class="menu-card"><span class="menu-tag">Menu Utama</span><h3>Salted Egg Chicken</h3><p>Olahan ayam dengan saus salted egg.</p><span class="menu-price">Rp42.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Menu Utama</span><h3>Bistik Chicken</h3><p>Olahan ayam dengan gaya bistik.</p><span class="menu-price">Rp38.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Mie</span><h3>Indomie Goreng / Kuah</h3><p>Pilihan mi instan goreng atau berkuah.</p><span class="menu-price">Rp15.000</span></article>
+      </div></div>
+      <div class="menu-group" id="minuman"><h2>☕ Produk Minuman — Coffee &amp; Tea</h2><p class="menu-subtitle">Pilihan kopi klasik serta teh hangat dan dingin.</p><div class="menu-grid">
+        <article class="menu-card"><span class="menu-tag">Coffee</span><h3>Americano Hot</h3><p>Kopi hitam hangat.</p><span class="menu-price">Rp15.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Coffee</span><h3>Americano Cold</h3><p>Kopi hitam dingin.</p><span class="menu-price">Rp17.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Coffee</span><h3>Cappuccino Hot / Cold</h3><p>Espresso dan susu dengan karakter cappuccino.</p><span class="menu-price">Mulai Rp18.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Coffee</span><h3>Cafe Latte Hot / Cold</h3><p>Kopi susu klasik.</p><span class="menu-price">Mulai Rp18.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Tea</span><h3>Tea Hot</h3><p>Teh hangat.</p><span class="menu-price">Rp8.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Tea</span><h3>Tea Cold</h3><p>Teh dingin.</p><span class="menu-price">Rp10.000</span></article>
+      </div></div>
+      <div class="menu-group" id="signature"><h2>🌙 Signature Coffee</h2><p class="menu-subtitle">Kreasi kopi khas RR Cafe dengan karakter rasa masing-masing.</p><div class="menu-grid">
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Tiger Bomb</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp29.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Kamikaze Nitro</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp25.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Amazon Trail</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp26.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Enigma</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp28.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Black Horizon</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp28.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Kokonatsu</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp28.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Signature Coffee</span><h3>Mont Blanc</h3><p>Minuman signature RR Cafe.</p><span class="menu-price">Rp28.000</span></article>
+      </div></div>
+      <div class="menu-group" id="mocktail"><h2>🍹 Signature Mocktail</h2><p class="menu-subtitle">Pilihan minuman kreatif untuk suasana yang lebih segar.</p><div class="menu-grid">
+        <article class="menu-card"><span class="menu-tag">Mocktail</span><h3>Sunset Bloom</h3><p>Minuman mocktail signature.</p><span class="menu-price">Rp28.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Mocktail</span><h3>Lady Crimson</h3><p>Minuman mocktail signature.</p><span class="menu-price">Rp30.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Mocktail</span><h3>Dragon Breeze</h3><p>Minuman mocktail signature.</p><span class="menu-price">Rp28.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Mocktail</span><h3>Catalyst</h3><p>Minuman mocktail signature.</p><span class="menu-price">Rp30.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Mocktail</span><h3>Green Escape</h3><p>Minuman mocktail signature.</p><span class="menu-price">Rp28.000</span></article>
+      </div></div>
+      <div class="menu-group" id="camilan"><h2>🍟 Camilan</h2><p class="menu-subtitle">Teman nongkrong dan berbagi cerita.</p><div class="menu-grid">
+        <article class="menu-card"><span class="menu-tag">Snack</span><h3>Dimsum Ayam Keju Lumer</h3><p>3 pcs dimsum ayam dengan keju lumer.</p><span class="menu-price">Rp25.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Snack</span><h3>Cheese Roll</h3><p>10 pcs cheese roll.</p><span class="menu-price">Rp18.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Snack</span><h3>Kentang Goreng</h3><p>Camilan kentang goreng.</p><span class="menu-price">Rp18.000</span></article>
+        <article class="menu-card"><span class="menu-tag">Snack</span><h3>Nugget + Sosis</h3><p>Kombinasi camilan untuk dinikmati bersama.</p><span class="menu-price">Rp25.000</span></article>
+      </div></div>
+      <p class="menu-note">Catatan: Daftar ini merupakan pilihan menu untuk website company profile, bukan daftar lengkap seluruh menu. Harga dan ketersediaan dapat berubah; konfirmasi ke RR Cafe sebelum memesan.</p>
+      <div class="menu-actions"><a href="https://wa.me/6285928808535" target="_blank" rel="noopener noreferrer">Tanya Menu via WhatsApp</a><a class="secondary" href="https://linktr.ee/roostandroast26" target="_blank" rel="noopener noreferrer">Lihat Link RR Cafe</a></div>
+    </div></section>
+  </main>
+  <footer><div class="container">© 2026 RR Cafe — Roost &amp; Roast • Website Company Profile UMKM</div></footer>
+  <script src="main.js"></script>
+</body>
+</html>
